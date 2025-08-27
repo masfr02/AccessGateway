@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<?cocoon-process type="xslt"?>
+<!DOCTYPE nete:proxyrules SYSTEM "file:////opt/CA/secure-proxy/proxy-engine/conf/dtd/proxyrules.dtd">
+
+<!-- Proxy Rules2-->
+<nete:proxyrules xmlns:nete="http://sps.ca.com/">
+     <nete:forward>http://sps.ca.com:6080/siteminderdefaultwebpage.html</nete:forward>
+</nete:proxyrules>
